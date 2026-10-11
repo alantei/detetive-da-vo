@@ -21,3 +21,5 @@ Em um projeto Supabase novo, execute `supabase/schema.sql` uma única vez. A tab
 Build local e na Vercel aprovados. Cadastro, logout e reentrada validados. No checkpoint A/B, A consultou duas análises e B uma; consultas cruzadas retornaram zero linhas e inserção cruzada foi recusada por RLS. Três mensagens também foram analisadas pela API real e salvas pelo aplicativo. Os testes posteriores acrescentam registros ao histórico.
 
 A confirmação de e-mail foi desativada temporariamente, com autorização, para os testes e reativada depois. As respostas da IA são indícios para conferência e podem conter erros; o teste ambíguo motivou um ajuste no prompt para evitar inventar urgência.
+
+A branch main está conectada à Vercel para publicação automática após push.
