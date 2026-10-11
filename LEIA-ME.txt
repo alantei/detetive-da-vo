@@ -1,0 +1,16 @@
+Detetive da Vo - aplicativo publicado
+
+Site: https://detetive-da-vo.vercel.app
+Banco Supabase criado em Sao Paulo; schema e RLS executados.
+IA real, login e historico testados. Veja README.md e o relatorio da execucao.
+
+Instalar: pnpm install --frozen-lockfile
+Executar: pnpm dev
+Validar: pnpm build
+
+Copiar .env.example para .env.local e preencher as variaveis. Nunca publicar .env.local ou a chave OpenRouter.
+No Supabase, executar supabase/schema.sql uma unica vez em projeto novo. Configurar Site URL e Redirect URLs para o dominio principal Vercel.
+A confirmacao de email foi desligada temporariamente com autorizacao e reativada apos os testes.
+Na Vercel configurar as tres variaveis e publicar novamente.
+O estado final de desafio.js usa modoTeste:false.
+O teste real A/B de RLS foi aprovado, com consultas cruzadas vazias e insercao cruzada recusada.
